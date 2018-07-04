@@ -8,5 +8,7 @@ hướng dẫn: chạy trên ubuntu
  + export FLASK_APP = microblog.py
  + flask run
 
-source tham khảo : The Flask Mega-Tutorial
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+source tham khảo : 
+The Flask Mega-Tutorial: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+pysolr: https://github.com/django-haystack/pysolr
+Apache solr: http://lucene.apache.org/solr/
