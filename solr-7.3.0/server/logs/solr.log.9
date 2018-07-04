@@ -1,0 +1,96 @@
+2018-04-23 03:59:54.215 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-04-23 03:59:54.943 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.3.0
+2018-04-23 03:59:54.944 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-04-23 03:59:54.944 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/dung/Downloads/solr-7.3.0
+2018-04-23 03:59:54.994 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-04-23T03:59:54.945Z
+2018-04-23 03:59:54.998 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-04-23 03:59:55.138 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/dung/Downloads/solr-7.3.0/server/solr
+2018-04-23 03:59:55.196 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/dung/Downloads/solr-7.3.0/server/solr/solr.xml
+2018-04-23 03:59:57.573 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/dung/Downloads/solr-7.3.0/server/solr
+2018-04-23 03:59:57.574 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [project]
+2018-04-23 03:59:57.580 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-04-23 03:59:57.895 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.c.SolrResourceLoader [project] Added 57 libs to classloader, from paths: [/home/dung/Downloads/solr-7.3.0/contrib/clustering/lib, /home/dung/Downloads/solr-7.3.0/contrib/extraction/lib, /home/dung/Downloads/solr-7.3.0/contrib/langid/lib, /home/dung/Downloads/solr-7.3.0/contrib/velocity/lib, /home/dung/Downloads/solr-7.3.0/dist]
+2018-04-23 03:59:58.050 INFO  (main) [   ] o.e.j.s.Server Started @5618ms
+2018-04-23 03:59:59.250 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.3.0
+2018-04-23 03:59:59.608 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.s.IndexSchema [project] Schema name=default-config
+2018-04-23 04:00:00.517 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-04-23 04:00:00.562 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.c.CoreContainer Creating SolrCore 'project' using configuration from instancedir /home/dung/Downloads/solr-7.3.0/server/solr/project, trusted=true
+2018-04-23 04:00:00.660 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-04-23 04:00:00.677 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.c.SolrCore [[project] ] Opening new SolrCore at [/home/dung/Downloads/solr-7.3.0/server/solr/project], dataDir=[/home/dung/Downloads/solr-7.3.0/server/solr/project/data/]
+2018-04-23 04:00:00.764 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-04-23 04:00:01.360 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-04-23 04:00:01.360 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-04-23 04:00:01.458 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-04-23 04:00:01.458 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-04-23 04:00:01.884 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.s.SolrIndexSearcher Opening [Searcher@34579930[project] main]
+2018-04-23 04:00:01.905 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/dung/Downloads/solr-7.3.0/server/solr/project/conf
+2018-04-23 04:00:01.938 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-04-23 04:00:01.955 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-04-23 04:00:01.968 INFO  (coreLoadExecutor-6-thread-1) [   x:project] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-04-23 04:00:02.119 INFO  (searcherExecutor-7-thread-1-processing-x:project) [   x:project] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@34579930[project] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C12627)))}
+2018-04-23 04:00:02.119 INFO  (searcherExecutor-7-thread-1-processing-x:project) [   x:project] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-04-23 04:00:02.120 INFO  (searcherExecutor-7-thread-1-processing-x:project) [   x:project] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-04-23 04:00:02.128 INFO  (searcherExecutor-7-thread-1-processing-x:project) [   x:project] o.a.s.c.SolrCore [project] Registered new searcher Searcher@34579930[project] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C12627)))}
+2018-04-23 04:03:52.987 INFO  (qtp1908316405-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1524456232558} status=0 QTime=9
+2018-04-23 04:03:53.060 INFO  (qtp1908316405-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1524456232560} status=0 QTime=78
+2018-04-23 04:03:53.078 INFO  (qtp1908316405-36) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1524456232560} status=0 QTime=98
+2018-04-23 04:03:55.086 INFO  (qtp1908316405-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1524456232558} status=0 QTime=0
+2018-04-23 04:03:55.109 INFO  (qtp1908316405-18) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/replication params={wt=json&command=details&_=1524456235052} status=0 QTime=15
+2018-04-23 04:03:55.114 INFO  (qtp1908316405-12) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/admin/system params={wt=json&_=1524456235052} status=0 QTime=27
+2018-04-23 04:03:55.121 INFO  (qtp1908316405-34) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1524456232560&ts=1524456232560} status=503 QTime=3
+2018-04-23 04:03:55.134 INFO  (qtp1908316405-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1524456232560} status=0 QTime=41
+2018-04-23 04:03:55.137 INFO  (qtp1908316405-35) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1524456235050} status=0 QTime=51
+2018-04-23 04:04:03.944 INFO  (qtp1908316405-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1524456232558} status=0 QTime=0
+2018-04-23 04:04:03.957 INFO  (qtp1908316405-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1524456232560} status=0 QTime=11
+2018-04-23 04:04:07.809 INFO  (qtp1908316405-19) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=*:*&_=1524456243860} hits=12627 status=0 QTime=55
+2018-04-23 04:07:43.396 INFO  (qtp1908316405-13) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&hl=true&hl.fragsize=20&wt=json} hits=0 status=0 QTime=37
+2018-04-23 04:07:46.701 INFO  (qtp1908316405-19) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&hl=true&hl.fragsize=20&wt=json} hits=12133 status=0 QTime=179
+2018-04-23 04:08:13.925 INFO  (qtp1908316405-19) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&hl=true&hl.fragsize=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:08:15.940 INFO  (qtp1908316405-16) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&hl=true&hl.fragsize=20&wt=json} hits=12133 status=0 QTime=1
+2018-04-23 04:09:18.589 INFO  (qtp1908316405-19) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&hl=true&hl.fragsize=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:09:21.335 INFO  (qtp1908316405-16) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&hl=true&hl.fragsize=20&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 04:09:40.805 INFO  (qtp1908316405-17) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&_=1524456243860} hits=12133 status=0 QTime=1
+2018-04-23 04:12:28.029 INFO  (qtp1908316405-19) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&hl=true&hl.fragsize=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:12:44.246 INFO  (qtp1908316405-21) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&hl=true&hl.fragsize=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:12:47.392 INFO  (qtp1908316405-13) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=anh+em+ơi&hl=true&hl.fragsize=20&wt=json} hits=2925 status=0 QTime=206
+2018-04-23 04:15:06.112 INFO  (qtp1908316405-19) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&hl=true&hl.fragsize=100&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:15:17.200 INFO  (qtp1908316405-36) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&hl=true&hl.fragsize=100&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 04:16:28.922 INFO  (qtp1908316405-21) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&hl=true&hl.fragsize=10&wt=json} hits=12133 status=0 QTime=1
+2018-04-23 04:16:50.205 INFO  (qtp1908316405-21) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&hl=true&hl.fragsize=20&wt=json} hits=12133 status=0 QTime=1
+2018-04-23 04:16:57.877 INFO  (qtp1908316405-21) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&hl=true&hl.fragsize=20&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 04:19:12.011 INFO  (qtp1908316405-36) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=100&wt=json} hits=12133 status=0 QTime=5
+2018-04-23 04:19:56.324 INFO  (qtp1908316405-34) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:19:58.626 INFO  (qtp1908316405-19) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 04:42:59.020 INFO  (qtp1908316405-36) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:43:43.266 INFO  (qtp1908316405-36) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:43:46.316 INFO  (qtp1908316405-16) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&wt=json} hits=12133 status=0 QTime=1
+2018-04-23 04:47:36.831 INFO  (qtp1908316405-21) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:47:39.885 INFO  (qtp1908316405-16) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 04:47:43.654 INFO  (qtp1908316405-21) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:47:46.305 INFO  (qtp1908316405-16) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:48:32.051 INFO  (qtp1908316405-21) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:48:37.170 INFO  (qtp1908316405-16) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:48:40.868 INFO  (qtp1908316405-12) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:50:46.367 INFO  (qtp1908316405-20) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:50:48.566 INFO  (qtp1908316405-36) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 04:51:37.695 INFO  (qtp1908316405-36) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:51:40.241 INFO  (qtp1908316405-13) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&wt=json} hits=12133 status=0 QTime=2
+2018-04-23 04:53:41.194 INFO  (qtp1908316405-13) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:53:42.770 INFO  (qtp1908316405-20) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 04:55:11.625 INFO  (qtp1908316405-36) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=1
+2018-04-23 04:55:13.798 INFO  (qtp1908316405-19) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 05:02:42.138 INFO  (qtp1908316405-13) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=1
+2018-04-23 05:02:44.580 INFO  (qtp1908316405-34) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 05:02:46.842 INFO  (qtp1908316405-13) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 05:02:52.469 INFO  (qtp1908316405-34) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 05:03:01.676 INFO  (qtp1908316405-13) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 05:03:05.274 INFO  (qtp1908316405-34) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 05:03:36.118 INFO  (qtp1908316405-34) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 05:03:38.230 INFO  (qtp1908316405-36) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=thứ+ba&rows=20&wt=json} hits=12133 status=0 QTime=0
+2018-04-23 05:03:44.946 INFO  (qtp1908316405-34) [   x:project] o.a.s.c.S.Request [project]  webapp=/solr path=/select params={q=None&rows=20&wt=json} hits=0 status=0 QTime=0
+2018-04-23 05:04:41.140 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=294247762
+2018-04-23 05:04:41.140 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-04-23 05:04:41.140 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-04-23 05:04:41.140 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-04-23 05:04:41.141 INFO  (coreCloseExecutor-12-thread-1) [   x:project] o.a.s.c.SolrCore [project]  CLOSING SolrCore org.apache.solr.core.SolrCore@5c40ef75
+2018-04-23 05:04:41.142 INFO  (coreCloseExecutor-12-thread-1) [   x:project] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.project, tag=1547759477
