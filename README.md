@@ -7,3 +7,6 @@ hướng dẫn: chạy trên ubuntu
  + source venv/bin/activate
  + export FLASK_APP = microblog.py
  + flask run
+
+source tham khảo : The Flask Mega-Tutorial
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
